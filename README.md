@@ -1,1 +1,1 @@
-# This is the repository for the Catskill Artists and Creatives for Housing Equity (CACHE) website. See website at https://cacheaction.org/
+# Catskill Artists and Creatives for Housing Equity (CACHE): https://cacheaction.org/
