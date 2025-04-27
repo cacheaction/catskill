@@ -13,20 +13,49 @@ iframe {
     margin: 0 auto;
   }
   
+.content {
+	display: block;
+	height: 20vw;
+}
+  
 .graphic {
 	display: block;
-	position: absolute;
+	position: relative;
+	width: 100%;
 	left: 50%;
 	background-repeat: no-repeat;
 	background-origin: content-box;
 }
 
 .graphic.logo {
-	margin: auto;
-	/* width: 20vw; */
 	background-image: url('https://cacheaction.github.io/catskill/img/faster_gift.gif');
-	width: 20vw;
-	/* height: 4.368vw; */
-	/* top: 11.96vw; */
+	background-size: 30vw 12vw;
+	width: 100%;
+	height: 12vw;
+	margin-left: -15vw;
 	z-index: 999;
+}
+
+#navigation-panel {
+	/* position: relative; */
+	left: 0px;
+	top: 0px;
+	margin-top: 1.04vw;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+	float: none;
+	/* max-width: 1920px; */
+	width: 70vw;
+}
+
+
+#nav-table {
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	left: 50%;
+	td, th { /* table cells */
+		padding: 1vw;
+	}
 }
