@@ -12,7 +12,21 @@ iframe {
     width: 100%;
     margin: 0 auto;
   }
+  
+.graphic {
+	display: block;
+	position: absolute;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
 
-top-logo {
+.graphic.logo {
 	margin: auto;
+	/* width: 20vw; */
+	background-image: url('https://cacheaction.github.io/catskill/img/faster_gift.gif');
+	width: 20vw;
+	/* height: 4.368vw; */
+	/* top: 11.96vw; */
+	z-index: 999;
 }
