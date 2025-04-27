@@ -24,7 +24,7 @@ html, body {
     padding: 0;
     height: 100%;
     overflow: hidden;
-	background-color: #5252ff;
+	/* background-color: #5252ff; */
 	background-image: url('https://cacheaction.github.io/catskill/img/catskills.jpg')
 }
 
