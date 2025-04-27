@@ -29,7 +29,7 @@ html, body {
 }
 
 iframe {
-    height: 100vh !important;
+    height: 70vh !important;
     border: none;
     width: 90vw;
     /* margin: 0 auto; */
