@@ -127,6 +127,9 @@ iframe {
 	#nav-table td {
 		flex: 0 0 50%; /* Two per row */
 		box-sizing: border-box;
+		td, th { /* table cells */
+			padding: 5px;
+		}
 	}
 	iframe {
 		max-width: 100%;
