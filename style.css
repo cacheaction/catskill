@@ -81,6 +81,7 @@ iframe {
 }
 
 /* #navigation-panel { */
+	position: relative;
 	/* left: 0px; */
 	/* top: 0px; */
 	/* margin-top: 1.04vw; */
@@ -89,6 +90,7 @@ iframe {
 	/* z-index: 0; */
 	/* float: none; */
 	/* max-height: 20vh; */
+	width: 70vw;
 	/* max-width: 70vw; */
 	/* box-sizing: border-box; */
 /* } */
