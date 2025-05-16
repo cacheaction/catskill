@@ -98,7 +98,7 @@ iframe {
 
 #navigation-panel {
 	margin: 1rem auto 0 auto;
-	padding: 0 1rem;
+	/* padding: 0 1rem; */
 	width: 100%;
 	max-width: 1200px; /* or whatever looks best */
 	box-sizing: border-box;
@@ -112,7 +112,7 @@ iframe {
 	margin-right: auto;
 	text-align: center;
 	left: 50%;
-	padding: 0.5rem;
+	/* padding: 0.5rem; */
 	word-wrap: break-word;
 	td, th { /* table cells */
 		padding: 10px;
