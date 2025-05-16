@@ -91,6 +91,7 @@ iframe {
 	width: 100%;
 	max-width: 1200px; /* or whatever looks best */
 	box-sizing: border-box;
+	margin-bottom: 1rem; /* creates breathing room */
 }
 
 
