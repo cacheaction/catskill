@@ -36,7 +36,26 @@ iframe {
 	margin-left: 5vw;
 	margin-right: 5vw;
   }
-  
+
+/* iframe { */
+	/* height: 70vh; */
+	/* width: 100%; */
+	/* max-width: 90vw; /* tweak to taste */ */
+	/* border: none; */
+	/* padding: 0 1rem; */
+	/* display: block; */
+	/* margin: 0 auto; */
+	/* box-sizing: border-box; */
+/* } */
+
+@media (max-width: 600px) {
+	iframe {
+		max-width: 100%;
+		padding: 0 0.5rem;
+	}
+}
+
+ 
 .content {
 	display: block;
 	height: 25vh;
@@ -61,17 +80,25 @@ iframe {
 	z-index: 999;
 }
 
+/* #navigation-panel { */
+	/* left: 0px; */
+	/* top: 0px; */
+	/* margin-top: 1.04vw; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	/* z-index: 0; */
+	/* float: none; */
+	/* max-height: 20vh; */
+	/* max-width: 70vw; */
+	/* box-sizing: border-box; */
+/* } */
+
 #navigation-panel {
-	/* position: relative; */
-	left: 0px;
-	top: 0px;
-	margin-top: 1.04vw;
-	margin-left: auto;
-	margin-right: auto;
-	z-index: 0;
-	float: none;
-	max-height: 20vh;
-	width: 70vw;
+	margin: 1rem auto 0 auto;
+	padding: 0 1rem;
+	width: 100%;
+	max-width: 1200px; /* or whatever looks best */
+	box-sizing: border-box;
 }
 
 
