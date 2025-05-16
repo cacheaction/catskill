@@ -37,23 +37,13 @@ iframe {
 	margin-right: 5vw;
   }
 
-/* iframe { */
-	/* height: 70vh; */
-	/* width: 100%; */
-	/* max-width: 90vw; /* tweak to taste */ */
-	/* border: none; */
-	/* padding: 0 1rem; */
-	/* display: block; */
-	/* margin: 0 auto; */
-	/* box-sizing: border-box; */
-/* } */
 
-@media (max-width: 600px) {
-	iframe {
-		max-width: 100%;
-		padding: 0 0.5rem;
-	}
-}
+/* @media (max-width: 600px) { */
+	/* iframe { */
+		/* max-width: 100%; */
+		/* padding: 0 0.5rem; */
+	/* } */
+/* } */
 
  
 .content {
@@ -81,7 +71,7 @@ iframe {
 }
 
 /* #navigation-panel { */
-	position: relative;
+	/* position: relative; */
 	/* left: 0px; */
 	/* top: 0px; */
 	/* margin-top: 1.04vw; */
@@ -90,7 +80,7 @@ iframe {
 	/* z-index: 0; */
 	/* float: none; */
 	/* max-height: 20vh; */
-	width: 70vw;
+	/* width: 70vw; */
 	/* max-width: 70vw; */
 	/* box-sizing: border-box; */
 /* } */
@@ -108,8 +98,36 @@ iframe {
 	vertical-align: top;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 	left: 50%;
+	padding: 0.5rem;
+	word-wrap: break-word;
 	td, th { /* table cells */
 		padding: 10px;
 	}
+}
+
+@media (max-width: 600px) {
+	#nav-table tr {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#nav-table td {
+		flex: 0 0 50%; /* Two per row */
+		box-sizing: border-box;
+	}
+	iframe {
+		max-width: 100%;
+		padding: 0 0.5rem;
+	}
+	
+	.graphic.logo {
+	background-image: url('https://cacheaction.github.io/catskill/img/faster_gift.gif');
+	background-size: 15vh 6vh;
+	width: 100%;
+	height: 6vh;
+	/* max-height: 20vh; */
+	margin-left: -7.5vh;
+	z-index: 999;
+}
 }
