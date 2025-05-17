@@ -41,7 +41,7 @@ iframe {
 	display: block;
 	width: 100%;
 	max-width: 1200px;
-	height: 70vh;
+	height: 2000px;
 	border: none;
 	margin: 0 auto;
 	padding: 0 1rem;
@@ -50,10 +50,11 @@ iframe {
 
 .banner {
 	display: block;
-	width: 100%
-	max-width: 1200px;
-	height: 10vh;
-	background-image: url('https://cacheaction.github.io/catskill/img/RESTACTBANNER.png')
+	width: 100%;
+	/* max-width: 1200px; */
+	height: 156px;
+	background-image: url('https://cacheaction.github.io/catskill/img/banner.png');
+	background-size: 820px 156px; /*820 312*/
 }
 
 
@@ -88,21 +89,6 @@ iframe {
 	margin-left: -15vh;
 	z-index: 999;
 }
-
-/* #navigation-panel { */
-	/* position: relative; */
-	/* left: 0px; */
-	/* top: 0px; */
-	/* margin-top: 1.04vw; */
-	/* margin-left: auto; */
-	/* margin-right: auto; */
-	/* z-index: 0; */
-	/* float: none; */
-	/* max-height: 20vh; */
-	/* width: 70vw; */
-	/* max-width: 70vw; */
-	/* box-sizing: border-box; */
-/* } */
 
 #navigation-panel {
 	margin: 1rem auto 0 auto;
