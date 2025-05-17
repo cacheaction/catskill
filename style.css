@@ -41,7 +41,7 @@ iframe {
 	display: block;
 	width: 100%;
 	max-width: 1200px;
-	height: 2500px;
+	height: 200vw;
 	border: none;
 	margin: 0 auto;
 	padding: 1rem 1rem;
@@ -129,7 +129,7 @@ iframe {
 	}
 	iframe {
 		max-width: 100%;
-		/* height: 50vh !important; */
+		height: 200vw;
 		padding: 0.5 0.5rem;
 		box-sizing: border-box;
 	}
@@ -142,6 +142,15 @@ iframe {
 	/* max-height: 20vh; */
 	margin-left: -7.5vh;
 	z-index: 999;
+	}
+	.banner {
+		width: 328vw;
+		height: 15vw;
+		background-size: 42vw 15vw;
+	}
+	#container .scroll {
+		width: 328vw;
+	}
 }
 }
 
