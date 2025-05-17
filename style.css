@@ -143,11 +143,13 @@ iframe {
 	margin-left: -7.5vh;
 	z-index: 999;
 	}
+	
 	.banner {
 		width: 328vw;
 		height: 15vw;
-		background-size: 42vw 15vw;
+		background-size: 84vw 15vw;
 	}
+	
 	#container .scroll {
 		width: 328vw;
 	}
