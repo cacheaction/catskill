@@ -41,11 +41,19 @@ iframe {
 	display: block;
 	width: 100%;
 	max-width: 1200px;
-	height: 200vh;
+	height: 70vh;
 	border: none;
 	margin: 0 auto;
 	padding: 0 1rem;
 	box-sizing: border-box;
+}
+
+.banner {
+	display: block;
+	width: 100%
+	max-width: 1200px;
+	height: 10vh;
+	background-image: url('https://cacheaction.github.io/catskill/img/RESTACTBANNER.png')
 }
 
 
