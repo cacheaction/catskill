@@ -23,7 +23,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll-y;
 	/* background-color: #5252ff; */
 	background-image: url('https://cacheaction.github.io/catskill/img/catskills.jpg')
 }
@@ -41,20 +41,22 @@ iframe {
 	display: block;
 	width: 100%;
 	max-width: 1200px;
-	height: 2000px;
+	height: 2500px;
 	border: none;
 	margin: 0 auto;
-	padding: 0 1rem;
+	padding: 1rem 1rem;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .banner {
 	display: block;
-	width: 100%;
+	width: 164vw;
 	/* max-width: 1200px; */
-	height: 156px;
-	background-image: url('https://cacheaction.github.io/catskill/img/banner.png');
-	background-size: 820px 156px; /*820 312*/
+	height: 7.5vw;
+	background-image: url('https://cacheaction.github.io/catskill/img/maybanner.png');
+	background-size: 41vw 7.5vw; /*820 312*/
+	scroll-snap-align: start;
 }
 
 
@@ -141,4 +143,25 @@ iframe {
 	margin-left: -7.5vh;
 	z-index: 999;
 }
+}
+
+#container {
+	white-space: nowrap;
+	background: #000;
+	color: #fff;
+}
+
+#container .scroll {
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 164vw;
+	white-space: nowrap;
+	animation: loop 20s linear infinite;
+}
+
+@keyframes loop {
+	0% {transform: translateX(0vw);}
+	100% {transform: translateX(-25vw);}
 }
